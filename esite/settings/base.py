@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 
 INSTALLED_APPS = [
     'esite.api',
-    'esite.aqms',
+    'esite.tetrisroyale',
 
     'rest_framework',
     'graphene_django',

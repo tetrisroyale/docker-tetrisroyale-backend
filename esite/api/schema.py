@@ -1,9 +1,9 @@
 import graphene
 
-import esite.aqms.schema
+import esite.tetrisroyale.schema
 
 
-class Query(esite.aqms.schema.Query, graphene.ObjectType):
+class Query(esite.tetrisroyale.schema.Query, graphene.ObjectType):
     # This class will inherit from multiple Queries
     # as we begin to add more apps to our project
     pass
