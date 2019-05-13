@@ -108,8 +108,21 @@ DATABASES = {
     }
 }
 
+
 GRAPHENE = {
     'SCHEMA': 'esite.api.schema.schema',
+}
+
+GRAPHQL_API = {
+    'APPS': [
+        'tetrisroyale',
+    ],
+    'PREFIX': {
+    },
+    'URL_PREFIX': {
+
+    },
+    'RELAY': False,
 }
 
 # Password validation
